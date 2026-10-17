@@ -461,7 +461,7 @@ EDGE_HOSTS = [
     for h in os.environ.get(
         "EDGE_HOSTS",
         "www.mastervolt.com:443,ahrefs.com:443,www.udacity.com:443,www.wto.org:443,"
-        "www.giannidelprete.it:443,www.shopify.com:443,www.deepl.com:443,staticdelivery.nexusmods.com:443,funko.com:443,kickstarter.com:443,spring.io:443,www.akasantech.com:443,cdn.204910.best:443,mfa.gov.ua:443,53.fs1.hubspotusercontent-na1.net:443,stores.staples.com:443,coreweave.com:443,serviceshub.samsclub.com:443,openai.com:443,bbs.alipansou.com:443,constitution.congress.gov:443,www.mfyx.cn:443,saas.sin.fan:443,cf-cname.xingpingcn.top:443,www.vmware.com:443,fn.130519.xyz:443,cf.468123.xyz:443,www.sofi.com:443,ikankeji.com:443,cdn.7zz.cn:443,cf.1o.ee:443,api.gzcrtw.com:443,cf.xreak.top:443,cf.3666888.xyz:443",
+        "www.giannidelprete.it:443,www.shopify.com:443,www.deepl.com:443,staticdelivery.nexusmods.com:443,funko.com:443,kickstarter.com:443",
     ).split(",")
     if h.strip()
 ]
